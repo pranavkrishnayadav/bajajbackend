@@ -1,7 +1,6 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
-import path from 'path';
 // import { fileURLToPath } from 'url';
 
 // Resolving Dirname For ES module
@@ -14,7 +13,6 @@ import path from 'path';
 // app.use(express.static(path.join(__dirname,'/client/')))
 
 //
-app.get('*',)
 const app = express();
 const PORT = process.env.PORT || 5000;
 
